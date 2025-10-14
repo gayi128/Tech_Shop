@@ -1,0 +1,16 @@
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+}
+.search-bar {
+  min-width: 220px;
+  margin-right: 1em;
+}
+.search-results {
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.user-profile .profile-dialog {
+  right: 0;
+  top: 45px;
+}
