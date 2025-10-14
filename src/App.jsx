@@ -4,7 +4,7 @@ import ProductList from './components/ProductList';
 import Cart from './components/Cart';
 import ProductDetails from './components/ProductDetails';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './styles.css';
+import './style.css';
 
 function App() {
   return (

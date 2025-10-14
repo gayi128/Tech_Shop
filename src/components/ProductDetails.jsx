@@ -1,5 +1,5 @@
 import React from 'react';
-import products from '../assets/products';
+import products from '../productsData';
 import { useParams } from 'react-router-dom';
 
 const ProductDetails = () => {
@@ -10,7 +10,7 @@ const ProductDetails = () => {
     <div className="container m-4">
       <div className="row">
         <div className="col-md-6">
-          <img src={product.image} alt={product.title} className="img-fluid"/>
+          <img src={product.images} alt={product.title} className="img-fluid"/>
         </div>
         <div className="col-md-6">
           <h1>{product.title}</h1>
