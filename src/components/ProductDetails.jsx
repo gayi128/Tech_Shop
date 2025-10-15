@@ -1,5 +1,5 @@
 import React from 'react';
-import products from '../productsData';
+import products from '../assets/productsData';
 import { useParams } from 'react-router-dom';
 
 const ProductDetails = () => {
