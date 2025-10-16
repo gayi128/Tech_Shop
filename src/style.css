@@ -14,3 +14,8 @@
   right: 0;
   top: 45px;
 }
+body {
+  background-color: #000 !important;
+  color: #fff; /* Optional: makes default text white */
+}
+
